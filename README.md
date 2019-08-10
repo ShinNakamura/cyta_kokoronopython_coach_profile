@@ -7,17 +7,17 @@
 
 ## Site ##
 
-[ES6以降のJavaScript入門講座](https://cyta.jp/javascript/s/ecmascript/)
+[心のPython入門講座](https://cyta.jp/python/s/kokoronopython/)
 
 
 ## Since ##
 
-開講日: 2019-08-07
+開講日: 2019-07-31
 
 
 ## Catch copy ##
 
 サイタ事務局さんが考えてくれたキャッチコピー
 
-> 現役プログラマーが直接指導。すぐ使える「小技」や「遊び」交えて楽しく！
+> Pythonを軸に基礎から応用までしっかり！問題解決の力が身につく講座
 
