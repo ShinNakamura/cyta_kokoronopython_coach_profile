@@ -10,6 +10,11 @@
 [ES6以降のJavaScript入門講座](https://cyta.jp/javascript/s/ecmascript/)
 
 
+## Since ##
+
+開講日: 2019-08-07
+
+
 ## Catch copy ##
 
 サイタ事務局さんが考えてくれたキャッチコピー
