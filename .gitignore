@@ -1,0 +1,15 @@
+*.db
+*.swp
+*.log
+*.bak
+*.pyc
+*.perlbak
+.DS_Store
+__pycache__/
+node_modules/
+so/
+data/
+result/
+tmp/
+null/
+sample/
