@@ -1,0 +1,74 @@
+Pythonをブラウザで試し書き: paiza.io
+
+
+
+
+「まずもってWindowsへPythonをインストールする時点でつまずいてしまった...」
+
+「MacだからPythonが最初からインストールされているらしいが、ターミナルの使い方がそもそもわからない...」
+
+という初心者の強い味方がブラウザでプログラミング言語を実行できるサービスです(*1)。
+
+今回は paiza.io というサービスを紹介します。
+
+<a href="https://paiza.io/ja" target="_blank">https://paiza.io/ja</a>
+
+このサイトはメニューが日本語なのも嬉しいですね。
+
+
+使い方はとても簡単で「コードを作成してみる(無料)」をクリック → コードを書ける画面に移動したら、左上のプルダウンから書きたい言語(Python3)を選ぶ → あとは書くだけ!
+
+ブラウザなのでそれなりに制限はいろいろあります(*2)が、コーチ目線でみると「思った以上にいろいろできるな!」という印象でした。
+
+初心者のユーザが、Pythonの文法を覚えるのにいろいろいじってみる、などの用途には十分ではないでしょうか。
+
+
+試しに次のようなコードを入力して...
+
+
+<code># coding: utf-8
+# Your code here!
+import json
+
+data = {
+&nbsp;&nbsp;&nbsp;&nbsp;"name":"Keyser Söze",
+&nbsp;&nbsp;&nbsp;&nbsp;"suspect":True
+}
+
+print(json.dumps(data, indent=2))</code>
+
+
+「実行」ボタンを押したところ、期待したとおり下記のような出力を得ることができました。(*3)
+
+
+<code>{
+&nbsp;&nbsp;"name": "Keyser S\u00f6ze",
+&nbsp;&nbsp;"suspect": true
+}</code>
+
+
+
+みなさんもお試しあれ!
+
+
+
+
+-----------------------------
+
+
+補足)
+
+*1) Pythonなどの言語は通常シェルというものを仲介役にしパソコンの中で動作しますので、ブラウザ上で書いて実行するにはそういう用途で公開されているサービスを利用する必要があります。
+(ちなみにJavaScriptのような言語はブラウザそのものに実行する能力(エンジン)が備わってます。)
+
+
+*2) paiza.io などのサービスを用いブラウザ上でPythonを実行するということは、言い換えると「ブラウザを親にして」Pythonを実行するということです。
+この場合、
+<<ブラウザができないこと == ブラウザ上のPythonにもできない>>
+となります。
+具体的にはHDDやSSDに保存されているファイルを直接 paiza.io 上で書いたPythonにて操作することはできません。
+これはセキュリティ上の要求です。
+
+
+*3) URLの寿命がどの程度かわかりませんが、サンプルコードを入力した状態の paiza.io は下記URLからアクセスできるようです。
+<a href="https://paiza.io/projects/e2z5qELyIXzW1B5AHlhEKw?language=python3" target="_blank">https://paiza.io/projects/e2z5qELyIXzW1B5AHlhEKw?language=python3</a>
